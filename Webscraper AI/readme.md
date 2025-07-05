@@ -3,11 +3,11 @@
 
 ## How to run?
 ### The submitted folder has the following files:
-1. [main.py](Webscraper%20AI/main.py)
-2. [parse.py](Webscraper%20AI/parse.py)
-3. [scraper.py](Webscraper%20AI/scraper.py)
-4. [processed_data.txt](Webscraper%20AI/processed_data.txt)
-5. [Demo of working model](Webscraper%20AI/05.07.2025_19.19.19_REC.mp4)
+1. [main.py](main.py)
+2. [parse.py](parse.py)
+3. [scraper.py](scraper.py)
+4. [processed_data.txt](processed_data.txt)
+5. [Demo of working model](05.07.2025_19.19.19_REC.mp4)
 
 ### Follow the steps below:
 ### Note: If using for the first time, perform steps 1-8. If not, you can directly jump to step 6.
@@ -25,12 +25,12 @@
    ```bash
    C:\Program Files (x86)\chromedriver.exe
    ```
-   If saving elsewhere, change the driver path in [scraper.py](Webscraper%20AI/scraper.py)
+   If saving elsewhere, change the driver path in [scraper.py](scraper.py)
 5. In the Command Prompt, write the following bash command to install Llama3.1 on your PC.
    ```bash
    ollama pull llama3.1
    ```
-6. Open the file [main.py](Webscraper%20AI/main.py) in a text editor/IDLE and type the following command in the terminal/Command Prompt(which is opened in the same folder where main.py is kept)    
+6. Open the file [main.py](main.py) in a text editor/IDLE and type the following command in the terminal/Command Prompt(which is opened in the same folder where main.py is kept)    
    ```bash
    streamlit run main.py
    ```
